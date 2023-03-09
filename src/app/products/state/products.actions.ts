@@ -1,4 +1,4 @@
-import { ProductsStateInterface } from 'src/app/products/types/productsState.interface';
+import { ProductsStateInterface } from '../types/productsState.interface';
 
 import { createAction, createActionGroup, props } from '@ngrx/store';
 
