@@ -1,0 +1,12 @@
+.products__listing{
+    // display: flex;
+    // margin: 2rem;
+    display: grid;
+    width: 100dvw;
+    grid-template-areas: 
+    "image  title   price"
+    "image  description   price"
+    "image  rating   price";
+    grid-template-columns: 150px 1fr 50px;
+    justify-content: stretch;
+}

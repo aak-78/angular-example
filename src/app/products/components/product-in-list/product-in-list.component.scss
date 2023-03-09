@@ -1,0 +1,30 @@
+.product{
+   
+    &__image{
+        grid-area: image;
+        max-width: 150px;
+        max-height: 120px;
+        outline: 2px red solid;
+    }
+    &__title{
+        grid-area: title;
+        outline: 2px green solid;
+        justify-self: auto;
+    }
+    &__description{
+        grid-area: description;
+        outline: 2px red solid;
+        justify-self: stretch;
+    }
+    &__price{
+        grid-area: price;
+        outline: 2px red solid;
+        // justify-self: end;
+    }
+    &__rating{
+        grid-area: rating;
+        outline: 2px red solid;
+    }
+
+}
+
